@@ -2,13 +2,13 @@
 
 ## How to use
 
-- Go to [here]() and upload your metrics data. Run the `ML` function and download the trained model.
+- Go to [here](http://d22e-35-231-228-144.ngrok.io) and upload your metrics data. Run the `ML` function and download the trained model.
 
 ## Notes
 
 ### 2022/12/28
 
-- The web-based app is now hosted in [streamlit cloud]().
+- The web-based app can be accessed from [here](http://d22e-35-231-228-144.ngrok.io) when the development is running.
 
 ### 2022/12/27
 
