@@ -2,13 +2,13 @@
 
 ## How to use
 
-- Go to [here]() and upload your metrics data. Run the `ML` function and download the trained model.
+- Go to [here](https://pocession-automl-app-streamlit-lunch-2ob4cw.streamlit.app/) and upload your metrics data. Run the `ML` function and download the trained model.
 
 ## Notes
 
 ### 2022/12/28
 
-- The web-based app is now hosted in [streamlit cloud]().
+- The web-based app is now hosted in [streamlit cloud](https://pocession-automl-app-streamlit-lunch-2ob4cw.streamlit.app/).
 
 ### 2022/12/27
 
