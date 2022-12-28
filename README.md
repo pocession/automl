@@ -6,7 +6,7 @@
 
 ## Notes
 
-###
+### 2022/12/28
 
 - The web-based app is now hosted in [streamlit cloud]().
 
@@ -20,5 +20,6 @@
 
 ## Future updates
 
+- Run scRNA-seq data as sample data.
 - Support `prediction` function.
 - Support multi-omics data.

@@ -12,7 +12,7 @@ from streamlit_pandas_profiling import st_profile_report
 from pycaret.classification import setup, compare_models, pull, save_model
 
 with st.sidebar:
-    st.image("./cell.png")
+    st.image("./cell.png", width=100)
     st.title("AutoCellML")
     choice = st.radio("Navigation",["Upload","Profiling","ML","Download"])
     st.info("This application allows you to build an automated ML pipeline for cell labeling using Streamlit, Pandas profiling, and Pycaret. It is super useful!!")
