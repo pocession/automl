@@ -1,4 +1,4 @@
-# This is a web-based app to predict the cell type base on single-cell omics data.
+# This is a web-based app to predict the cell types based on single-cell omics data.
 
 ## Credits
 
