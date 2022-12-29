@@ -1,4 +1,4 @@
-# This is a web-based app to predict the cell types based on single-cell omics data.
+# This is a web-based app to predict the cell types according to single-cell omics data.
 
 ## Credits
 
@@ -8,6 +8,7 @@
 ## How to use
 
 - Go to [here](https://pocession-automl-app-streamlit-lunch-2ob4cw.streamlit.app/) and upload your metrics data. Run the `ML` function and download the trained model.
+- Use [sample data](./sample_data/single_cell_sample_data.csv) to see how this app works.See [the notebook](./sample_data/scRNA_subsetting.ipynb) to know how I prepare the sample data.
 
 ## Notes
 
