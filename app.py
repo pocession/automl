@@ -15,7 +15,7 @@ with st.sidebar:
     st.image("./cell.png", width=100)
     st.title("AutoCellML")
     choice = st.radio("Navigation",["Upload","Profiling","ML","Download"])
-    st.info("This application allows you to build an automated ML pipeline for cell labeling using Streamlit, Pandas profiling, and Pycaret. It is super useful!!")
+    st.info("This application allows you to build an automated ML pipeline for cell labeling using Pycaret. It is super useful!!")
 
 if os.path.exists("sourcedata.csv"):
     df=pd.read_csv("sourcedata.csv",index_col=None)
