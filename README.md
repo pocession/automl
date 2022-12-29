@@ -1,5 +1,10 @@
 # This is a web-based app to predict the cell type base on single-cell omics data.
 
+## Credits
+
+- Codes of App [Nicholas Renotte](https://github.com/nicknochnack/AutoStreamlit/blob/main/requirements.txt).
+- Demo dataset is [PBMC from a healthy donor](https://support.10xgenomics.com/single-cell-gene-expression/datasets/3.0.0/pbmc_10k_v3?) (10X v3 chemistry) and the cell type is predicted by [Azimuth](https://app.azimuth.hubmapconsortium.org/app/human-pbmc).
+
 ## How to use
 
 - Go to [here](https://pocession-automl-app-streamlit-lunch-2ob4cw.streamlit.app/) and upload your metrics data. Run the `ML` function and download the trained model.
