@@ -21,7 +21,7 @@ if os.path.exists("sourcedata.csv"):
     df=pd.read_csv("sourcedata.csv",index_col=None)
 
 if choice == "Upload":
-    st.title("Upload Your Data for Modeling!")
+    st.title("Upload Your Count Matrix for Modeling!")
     file = st.file_uploader("Upload Your Dataset Here")
     if file:
         df = pd.read_csv(file, index_col=None)
@@ -31,7 +31,9 @@ if choice == "Upload":
 if choice == "Profiling":
     st.title("Automated Exploratory Data Analysis")
     profile_report = df.profile_report()
+    print("generating profiling report: ... ")
     st_profile_report(profile_report)
+    print("Done!")
 
 if choice == "ML":
     st.title("Machine GO!")

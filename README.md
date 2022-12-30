@@ -8,9 +8,17 @@
 ## How to use
 
 - Go to [here](https://pocession-automl-app-streamlit-lunch-2ob4cw.streamlit.app/) and upload your metrics data. Run the `ML` function and download the trained model.
-- Use [sample data](./sample_data/single_cell_sample_data.csv) to see how this app works.See [the notebook](./sample_data/scRNA_subsetting.ipynb) to know how I prepare the sample data.
+- Use [sample data](./sample_data/single_cell_sample_data.csv) to play around this app.
+- See [the notebook](./sample_data/scRNA_subsetting.ipynb) to know how I prepare the sample data.
 
 ## Notes
+
+### 2022/12/30
+
+- Add [sample data for single cell RNAseq](./sample_data/single_cell_sample_data.csv).
+- The app works well with single cell RNAseq data.
+- Profiling takes a long time if the number of variables are too many (Not sure how many is too many).
+- But it does not work when file size is larger than 50 Mb.
 
 ### 2022/12/28
 
