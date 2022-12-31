@@ -7,3 +7,5 @@
 3. For all the packages that did not get installed, please pip install it.
 4. Step3: `brew install cmake libomp`
 5. Step4: `pip install xgboost --no-binary xgboost -v`
+
+### However, eventually, it still does not work on my M1 Mac.
